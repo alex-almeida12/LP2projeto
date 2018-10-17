@@ -13,6 +13,9 @@ namespace Projeto.Models
         {
         }
 
-        public DbSet<Projeto.Models.Departamento> Departamento { get; set; }
+        public DbSet<Departamento> Departamento { get; set; }
+        public DbSet<Vendedor> Vendedor { get; set; }
+        public DbSet<Venda> Venda { get; set; }
+        public int MyProperty { get; set; }
     }
 }
